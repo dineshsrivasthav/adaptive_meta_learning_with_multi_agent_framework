@@ -1,0 +1,20 @@
+{
+    "vector_db_path": "./chroma_db",
+    "pdf_folder": "./local_deepfake_docs",
+    "multiagent_output_dir": "./outputs",
+    "few_shot_samples_dir": "./few_shot_samples",
+    "train_real_path": "./meta_learning_data/train_real_classes",
+    "train_fake_path": "./meta_learning_data/train_fake_classes",
+    "val_real_path": "./meta_learning_data/val_real_classes",
+    "val_fake_path": "./meta_learning_data/val_fake_classes",
+    "model_save_path": "./trained_model.pth",
+    "results_path": "./pipeline_results.json",
+    "num_meta_epochs": 30,
+    "tasks_per_epoch": 10,
+    "text_prompt": "person face",
+    "mask_type": "normal",
+    "max_samples": null,
+    "deep_crawl": false,
+    "use_rerank": false
+}
+
